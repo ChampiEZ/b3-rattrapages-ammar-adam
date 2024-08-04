@@ -1,0 +1,59 @@
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: .5rem;
+  width: 100%;
+}
+
+.form > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form > div input[type="text"],
+.form > div input[type="number"],
+.form > div textarea {
+  width: 50%;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 1rem;
+  border: solid 1px #ffffff;
+  width: 100%;
+}
+
+.products .top {
+  display: flex;
+  gap: .5rem;
+}
+
+.product li {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.product span {
+  display: flex;
+  gap: .5rem;
+}
+
+.product span button {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+}

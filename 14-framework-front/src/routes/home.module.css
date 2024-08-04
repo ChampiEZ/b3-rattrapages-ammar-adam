@@ -1,0 +1,20 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 1rem;
+  border: solid 1px #ffffff;
+  width: 100%;
+}
+
+.products .top {
+  display: flex;
+  gap: .5rem;
+}
